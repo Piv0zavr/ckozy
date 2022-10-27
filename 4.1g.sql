@@ -1,0 +1,1 @@
+select Full_name from employees where exists (select salary from positions where positions.id = employees.Positions_id and salary > 50000);

@@ -1,0 +1,1 @@
+select storage.id, group_concat(Title separator ',') as TitleList from storage; 
