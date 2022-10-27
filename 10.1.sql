@@ -1,0 +1,1 @@
+SELECT customer.name, sum(payment.amount) FROM customer LEFT OUTER JOIN payment ON customer.customer_id = payment.customer_id

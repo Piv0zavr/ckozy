@@ -1,0 +1,1 @@
+SELECT employees.Full_name, positions.id FROM employees LEFT OUTER JOIN positions ON positions.id = employees.Positions_id order by employees.Full_name;
