@@ -1,0 +1,2 @@
+SELECT film.title FROM film WHERE EXISTS
+(SELECT 1 FROM film_category INNER JOIN category ON film_category.category_id = category.category_id WHERE category.name = 'Action' AND film_category.film_id = film.film_id);
