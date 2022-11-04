@@ -1,0 +1,1 @@
+select employees.id, employees.Full_name, positions.Salary  from employees inner join positions on positions.id = employees.id;

@@ -1,0 +1,1 @@
+select Operating_system, Frequency, Monitor, Video_card from computer order by 3,2;
